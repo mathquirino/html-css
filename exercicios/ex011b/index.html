@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens</title>
+</head>
+<body>
+  <h1>Imagens</h1>
+  <p>Tente abrir esse site em varios dispositivos diferentes</p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="imagens/foto-p.png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+    <img src="imagens/foto-g.png">
+  </picture>
+<p>O source tem que seguir uma ordem, usando a base (img) e depos indo gradativamente diminuindo. Exemplo: Base (1000px) <br> Próximo (600px)</p>
+</body>
+<h1>Colocando audio no site</h1>
+<audio controls preload="metadata">
+  <source src="audio/guanacast-33.mp3" type="audio/mpeg">
+  <p>Infelizmente seu navegador não suporta áudio, caso queira baixar <a href="audio/guanacast-33.mp3">clique aqui</a></p>
+</audio> 
+</html>
