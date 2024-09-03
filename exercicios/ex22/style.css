@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-body {}
-
 .quadrado {
   display: inline-block;
   border: 2px solid black;
