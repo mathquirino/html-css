@@ -1,18 +1,24 @@
 @charset "UTF-8";
 
 body {
-  background-color: black;
+  /*background-color: black;
   background-image: url(../imagens/wallpaper002.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;*/
   margin: 0px;
   height: 100vh;
+
+  /* shorthand - background
+        color > image > position > repeat > / [size] > attachment */
+
+  background: black url(../imagens/wallpaper002.jpg) fixed center center / cover
 }
 
 main {
   background: white;
-  width: 400px;
+  max-width: 500px;
   padding: 10px;
   margin: auto;
   border: 1px solid black;
