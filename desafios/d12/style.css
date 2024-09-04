@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+
+  .sriracha-regular {
+  font-family: "Sriracha", system-ui; */
+
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 215px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  font-family: var(--fonte2);
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 10px;
+  font-weight: large;
+  font-family: var(--fonte3), cursive;
+}
+
+div {
+  padding-bottom: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
