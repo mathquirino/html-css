@@ -40,16 +40,27 @@ header h1 {
   font-weight: bold;
 }
 
+header p {
+  font-family: var(--fonte1);
+}
+
 header a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-main {
-  padding: 10px;
+header a:hover {
+  text-decoration: underline;
+  color: white;
+  animation-duration: 1ms;
+}
+
+main p {
+  padding: 3vw;
   font-weight: large;
   font-family: var(--fonte3), cursive;
+  font-size: 3.5vw;
 }
 
 div {
@@ -59,4 +70,56 @@ div {
 body {
   margin: 0;
   padding: 0;
+  display: block;
+}
+
+section.normal {
+  padding-bottom: 5vh;
+}
+
+section.imagem {
+  padding: 10vh 0 10vh 3vh;
+  border: 0;
+  box-shadow: inset 0px 7px 14px 0px #000000ba
+}
+
+section.imagem p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.521);
+  display: inline-block;
+  margin: 10px 0 10px;
+  padding: 5px;
+}
+
+section#img1 {
+  background-image: url(imagens/background001.jpg);
+  background-position: center right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section#img2 {
+  background-image: url(imagens/background002.jpg);
+  background-position: center left;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-family: var(--fonte1);
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
